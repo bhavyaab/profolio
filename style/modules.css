@@ -1,0 +1,10 @@
+.main-nav ul{
+  display: none;
+  clear:both;
+  list-style: none;
+}
+
+.icon-menu{
+  font-size: 5em;
+  color: #ccb514;
+}

@@ -1,53 +1,29 @@
 header{
-height: 250px;
-background: #0b154a;
+height:150px;
+background: #333;
 color: #FEFEFE;
-display: inline-block;
 width: 100%;
 position: relative;
+margin-bottom: 30px;
 }
 
-.logo{
-     font-size: 5em;
-     position: absolute;
-     top: 70px;
-     left: 70px;
-     font-family: 'Kumar One Outline', cursive;
-     color: #b5132e;
-     margin-left: 70px;
-}
-.main-nav{
-display: inline;
-float: right;
-position: absolute;
-right: 70px;
-top: 70px;
-margin-right: 100px;
-}
-.main-nav:hover ul{
-     display: block;
-     position: relative;
-}
-.tab{
-     position: absolute;
-     font-size: 1.5em;
-     top: 100px;
-     border-bottom: 1px solid #ccc;
-}
-img{
-     width: 100%;
-     display: inline;
+header ul{
+  display: none;
+  position: absolute;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+  color: orange;
+  background-color: #333;
 }
 main{
-     height: 800px;
-     background-image: url("../img/cmyk.jpg");
-     background-repeat: no-repeat;
-     background-position: center;
-     align-items: center;
+     width: 80%;
+     text-align: center;
 }
 main p{
-     width: 60%;
-     margin-left: 170px;
+     /*margin-left: 10%;
+     margin-right: 10%;*/
      font-size: 2em;
 }
 footer ul{
@@ -56,4 +32,42 @@ footer ul{
 }
 footer ul li{
      display: inline;
+}
+h1{
+  text-align: center;
+}
+.article img{
+ width: 40%;
+ position: relative;
+ height: 100px;
+}
+@media only screen and (min-width: 640px) {
+header ul {
+    display: block;
+  }
+
+  ul li {
+    display: inline;
+    text-align: center;
+    padding: 1em;
+    color: white;
+  }
+
+  ul li:last-child {
+    margin-left: none;
+  }
+
+}
+@media only screen and (min-width: 740px) {
+  header{
+       height: 150px;
+ }
+ .tab{
+      font-size: 5em;
+      margin-bottom: 40px;
+}
+  header ul {
+     display: inline;
+     text-align: center;
+ }
 }

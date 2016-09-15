@@ -1,1 +1,62 @@
-/*not sure which part i am goig to put here */
+.template{
+     display: none;
+}
+.logo{
+     font-size: 3em;
+     position: absolute;
+     top: 20%;
+     left: 15%;
+     font-family: 'Kumar One Outline', cursive;
+     color: #b5132e;
+}
+.main-nav{
+     display: inline;
+     position: absolute;
+     top: 20%;
+     left:80%;
+}
+.icon-menu{
+     font-size: 4em;
+     color: #ccb514;
+}
+.main-nav:hover ~ul{
+     display: block;
+     margin-bottom: 30px;
+}
+.tab{
+     font-size: 1.5em;
+}
+@media only screen and (min-width: 640px) {
+
+  .main-nav {
+    width: 100%;
+  }
+
+  .icon-menu {
+    display: none;
+    width: 100%;
+  }
+  .logo{
+      font-size: 2em;
+      text-align: center;
+      width: 100%;
+      left: 0px;
+ }
+}
+@media only screen and (min-width: 940px) {
+  .logo{
+     text-align: center;
+     display: block;
+     position: static;
+ }
+ .main-nav {
+   width: 100%;
+ }
+ header ul{
+      margin-top:75px;
+}
+
+main{
+
+}
+}

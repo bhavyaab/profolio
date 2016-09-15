@@ -1,5 +1,5 @@
 header{
-height: 150px;
+height:150px;
 background: #333;
 color: #FEFEFE;
 width: 100%;
@@ -7,51 +7,23 @@ position: relative;
 margin-bottom: 30px;
 }
 
-.logo{
-     font-size: 3em;
-     position: absolute;
-     top: 20%;
-     left: 15%;
-     font-family: 'Kumar One Outline', cursive;
-     color: #b5132e;
-}
-.main-nav{
-display: inline;
-position: absolute;
-top: 20%;
-left:80%;
-}
-.main-nav ul{
+header ul{
   display: none;
-  clear:both;
+  position: absolute;
   list-style: none;
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+  color: orange;
+  background-color: #333;
 }
-.icon-menu{
-  font-size: 4em;
-  color: #ccb514;
+main{
+     width: 80%;
+     text-align: center;
 }
-.main-nav:hover ul{
-     display: block;
-     position: relative;
-}
-main-nav li{
-/*display: block;  ??*/
-}
-.tab{
-     position: absolute;
-     font-size: 1.5em;
-     top: 100px;
-     border-bottom: 1px solid #ccc;
-}
-img{
-     width: 100%;
-     display: inline;
-}
-
 main p{
-     /*width: 40%;*/
-     margin-left: 10%;
-     margin-right: 10%;
+     /*margin-left: 10%;
+     margin-right: 10%;*/
      font-size: 2em;
 }
 footer ul{
@@ -61,30 +33,41 @@ footer ul{
 footer ul li{
      display: inline;
 }
+h1{
+  text-align: center;
+}
+.article img{
+ width: 40%;
+ position: relative;
+ height: 100px;
+}
 @media only screen and (min-width: 640px) {
-
-  .main-nav {
-    width: 100%;
-  }
-
-  .icon-menu {
-    display: none;
-    width: 100%;
-  }
-
-  .main-nav ul {
+header ul {
     display: block;
   }
 
-  .main-nav li {
+  ul li {
     display: inline;
     text-align: center;
     padding: 1em;
-    border: none;
+    color: white;
   }
 
-  .main-nav li:last-child {
+  ul li:last-child {
     margin-left: none;
   }
 
+}
+@media only screen and (min-width: 740px) {
+  header{
+       height: 150px;
+ }
+ .tab{
+      font-size: 5em;
+      margin-bottom: 40px;
+}
+  header ul {
+     display: inline;
+     text-align: center;
+ }
 }

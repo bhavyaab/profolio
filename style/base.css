@@ -2,10 +2,10 @@ body {
   line-height: 1.5;
   font-size: 100%;
   color: #313131;
-}
+  }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 /*TEXT STYLES

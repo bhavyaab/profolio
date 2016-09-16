@@ -17,10 +17,10 @@
     <div class="icon-menu"></div>
   </nav>
   <ul>
-    <li class="tab">Home</li>
-    <li class="tab">About</li>
-    <li class="tab">Projects</li>
-    <li class="tab">contact</li>
+    <li class="tab" data-content="article">Home</li>
+    <li class="tab" data-content="about">About</li>
+    <li class="tab" data-content="x">Projects</li>
+    <li class="tab" data-content="y">contact</li>
   </ul>
 </header>
 <main>
@@ -32,6 +32,14 @@
          By <address><a href="">Author Name</a></address>
     </article>
   </section>
+  <section class="about">
+   <article class="aboutMe" data-category="x">
+      <h1>heading</h1>
+      <img src="http://placehold.it/10x10/#000000">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      By <address><a href="">Author Name</a></address>
+ </article>
+</section>
 </main>
 <footer>
      <ul>
@@ -42,5 +50,6 @@
 </body>
 <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 <script src="js/data.js"></script>
+<script src="js/viewPage.js"></script>
 <script src="js/script.js"></script>
 </html>

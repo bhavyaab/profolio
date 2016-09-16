@@ -27,7 +27,24 @@
      font-size: 1.5em;
 }
 @media only screen and (min-width: 640px) {
+  .home img{
+    height: 300px;
+    width: 30%;
 
+ }
+  .home p{
+    font-size: 1em;
+    width: 60%;
+    float: right;
+ }
+ address{
+ width: 60%;
+ text-align: center;
+ float: right;
+ }
+ .article{
+ margin-bottom: 30px;
+}
   .main-nav {
     width: 100%;
   }

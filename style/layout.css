@@ -17,15 +17,14 @@ header ul{
   color: orange;
   background-color: #333;
 }
-main{
-     width: 80%;
-     text-align: center;
-}
+h1{
+  font-size: 3em;
+  font-weight: bold;
+  }
 main p{
-     /*margin-left: 10%;
-     margin-right: 10%;*/
      font-size: 2em;
 }
+
 footer ul{
      text-align: center;
      font-size: 5em;

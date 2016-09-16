@@ -14,7 +14,15 @@ var myContext = {
       category: 'Handlebar',
       address: 'http://tutorialzine.com/2015/01/learn-handlebars-in-10-minutes/',
       author:'Yehuda Katz',
-      paragraph:'Handlebars.js is a popular templating engine that is powerful, simple to use and has a large community. It is based on the Mustache template language, but improves it in several important ways. With Handlebars, you can separate the generation of HTML from the rest of your JavaScript and write cleaner code. This quick article is an attempt to teach you almost everything you need to know about Handlebars in 10 minutes or less. It may seem a bit overwhelming in the beginning, but just like riding a bike (pun intended), after you get the hang of it, it becomes the easiest thing in the world.',
+      paragraph:'Handlebars.js is a popular templating engine that is powerful, simple to use and has a large community. It is based on the Mustache template language, but improves it in several important ways. With Handlebars, you can separate the generation of HTML from the rest of your JavaScript and write cleaner code. This quick article is an attempt to teach you almost everything you need to know about Handlebars in 10 minutes or less. It may seem a bit overwhelming in the beginning, but just like riding a bike (pun intended), after you get the hang of it, it becomes the easiest thing in the world. Checkout: <a href="http://handlebarsjs.com/">official site</a>',
+    },
+    {
+      heading: 'SMACSS',
+      image: 'img/smacss.png',
+      category: 'css',
+      address: 'https://smacss.com/',
+      author:'Jonathan Snook',
+      paragraph:'\"SMACSS (pronounced \"smacks\") is more style guide than rigid framework. There is no library within here for you to download or install. SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. It is an attempt to document a consistent approach to site development when using CSS. And really, who isn’t building a site with CSS these days?!<a href="https://smacss.com/book/">Free Online Book</a>\: SMACSS started out as a free online book and that continues to be true. You can always read the original chapters.',
     },
     // {
     //   heading: '',

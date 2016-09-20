@@ -45,7 +45,7 @@ var myContext = {
       image: 'img/codePen.jpg',
       category: 'Tools',
       address: 'http://codepen.io/',
-      author:'',
+      author:'code pen',
       paragraph:'',
     },
     // {

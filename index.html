@@ -19,6 +19,11 @@
   </article>
  {{/each}}
 </script>
+<script id="category-option-template" type="text">
+  {{#each myLocaldata}}
+     <option value="{{category}}">{{category}}</option>
+  {{/each}}
+</script>
 </head>
 <body>
 <header>
@@ -34,7 +39,11 @@
   </ul>
 </header>
 <main>
-  <section class="home"></section>
+  <section class="home">
+       <select id="category-filter">
+            <option value="">---select by category---</option>
+       </select>
+ </section>
   <section class="about">
    <article class="aboutMe" data-category="x">
       <h1>heading</h1>

@@ -24,7 +24,7 @@ main{
 main p{
      /*margin-left: 10%;
      margin-right: 10%;*/
-     font-size: 2em;
+     font-size: 1em;
 }
 footer ul{
      text-align: center;
@@ -70,4 +70,8 @@ header ul {
      display: inline;
      text-align: center;
  }
+}
+select{
+     padding: 0.5em; 1em;
+     text-align: center;
 }

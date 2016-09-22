@@ -22,7 +22,7 @@ h1{
   font-weight: bold;
   }
 main p{
-     font-size: 2em;
+  font-size: 1em;
 }
 
 footer ul{
@@ -69,4 +69,8 @@ header ul {
      display: inline;
      text-align: center;
  }
+}
+select{
+     padding: 0.5em; 1em;
+     text-align: center;
 }

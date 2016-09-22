@@ -1,17 +1,10 @@
-var article = [];
+var source = $('#home-template').html();  //fetch the handelbar template
+var template = Handlebars.compile(source); //compile it
+var theCompiledHtml = template(myContext); //
+$('.home').append(theCompiledHtml);
 
-var source = $('#home-template').html();
-var template = Handlebars.compile(source);
-var theCompiledHtml = template(myContext);
-$('.home').html(theCompiledHtml);
-
-
-
-article.render = function(){
-  article.forEach(function(option){
-    var source = $('#category-filter').html();
-    var template = Handlebars.compile(source);
-    var theCompiledHtml = template(myContext);
-    $('#category-box').html(theCompiledHtml);
-  });
-};
+//filter creation
+var sourceC = $('#category-option-template').html();
+var templateC = Handlebars.compile(sourceC);
+var theCompiledHtmlC = templateC(myContext);
+$('#category-filter').append(theCompiledHtmlC);

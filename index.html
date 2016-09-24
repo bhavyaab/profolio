@@ -1,83 +1,79 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="vendor/normalize.css">
-<link rel="stylesheet" href="vendor/style.css">
-<link rel="stylesheet" href="style/base.css">
-<link rel="stylesheet" href="style/layout.css">
-<link rel="stylesheet" href="style/modules.css">
-<link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline" rel="stylesheet">
-<title>Profolio</title>
-<script id="home-template" type="text">
-{{#each myLocaldata}}
-  <article class="article" data-category="{{category}}">
-  <h1>{{heading}}</h1>
-  <img src="{{image}}">
-  <p>{{{paragraph}}}</p>
-  <address>By <a href="{{address}}">{{author}}</a></address>
-  </article>
- {{/each}}
-</script>
-<script id="category-option-template" type="text">
-{{#each filter}}
-       <option value="{{category}}">{{category}}</option>
-{{/each}}
-</script>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="vendor/style.css">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/layout.css">
+    <link rel="stylesheet" href="style/modules.css">
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline" rel="stylesheet">
+    <title>Profolio</title>
+    <script id="home-template" type="text">
+      <article class="article" data-category="{{category}}">
+        <h1>{{heading}}</h1>
+        <img src="{{image}}">
+        <p>{{{paragraph}}}</p>
+        <address>By <a href="{{address}}">{{author}}</a></address>
+      </article>
+   </script>
+  <script id="category-option-template" type="text">
+    <option value="{{category}}">{{category}}</option>
+  </script>
 </head>
 <body>
-<header>
-  <div class="logo">@b</div>
-  <nav class="main-nav">
-    <div class="icon-menu"></div>
-  </nav>
-  <ul>
-    <li class="tab" data-content="home">Home</li>|
-    <li class="tab" data-content="about">About</li>
-  </ul>
-</header>
-<main>
-  <section class="home">
-       <select id="category-filter">
-            <option value="">---select by category---</option>
-       </select>
-   </section>
-  <section class="about">
-   <article class="aboutMe" data-category="x">
-      <h1>About me</h1>
+  <header>
+    <div class="logo">@b</div>
+    <nav class="main-nav">
+      <div class="icon-menu"></div>
+    </nav>
+    <ul>
+      <li class="tab" data-content="home">Home</li>|
+      <li class="tab" data-content="about">About</li>
+    </ul>
+  </header>
+  <main>
+    <section class="home">
+      <select id="category-filter">
+         <option value="">---select by category---</option>
+      </select>
+    </section>
+    <section class="about">
+     <article class="aboutMe" data-category="x">
+        <h1>About me</h1>
       <!-- <img src="http://placehold.it/10x10/#000000"> -->
-      <p>My name is ... You know my name already so not to tell
+        <p>My name is ... You know my name already so not to tell
 I would like to talk about ... (seems you are genius technocrat so
-to name topic would be unfair.</p>
+to name topic would be unfair.)</p>
 
-      <p>Purpose of this page is to ... Frankly telling is just ???
+        <p>Purpose of this page is to ... Frankly telling is just ???
 Anyways to make this meaningful I would like to say... Its boring
 na?</p>
 
-      <p>Ok let me say something... Now I feel bored... Don't you.
+        <p>Ok let me say something... Now I feel bored... Don't you.
 But with respect to this introduction part... I ought to say something...
 But what to say...</p>
 
-      <p>Thank You all for your patience. Please mail your feedback so that we could
+        <p>Thank You all for your patience. Please mail your feedback so that we could
 implement this concept in our ongoing project.</p>
-  </article>
-  <ul class="ulTab">
-     <li class="myTab" data-content="x">Projects</li>|
-     <li class="myTab" data-content="y">contact</li>
-  </ul>
- </section>
- <section class=""></section>
-</main>
-<footer>
-  <ul>
-   <li class="icon-github"></li>
-   <li class="icon-linkedin"></li>
-  </ul>
-</footer>
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-<script src="js/data.js"></script>
-<script src="js/viewPage.js"></script>
-<script src="js/script.js"></script>
+       </article>
+       <ul class="ulTab">
+          <li class="myTab" data-content="x">Projects</li>|
+          <li class="myTab" data-content="y">contact</li>
+       </ul>
+      </section>
+      <section class=""></section>
+    </main>
+    <footer>
+      <ul>
+       <li class="icon-github"></li>
+       <li class="icon-linkedin"></li>
+      </ul>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+  <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+  <script src="js/data.json"></script>
+  <script src="js/viewPage.js"></script>
+  <script src="js/script.js"></script>
 </html>

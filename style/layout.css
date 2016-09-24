@@ -21,6 +21,10 @@ h1{
   font-size: 3em;
   font-weight: bold;
   }
+select{
+  padding: 0.5em; 1em;
+  text-align: center;
+  }
 main p{
   font-size: 1em;
 }
@@ -73,8 +77,4 @@ header ul {
      display: inline;
      text-align: center;
  }
-}
-select{
-     padding: 0.5em; 1em;
-     text-align: center;
 }

@@ -28,8 +28,8 @@
       <div class="icon-menu"></div>
     </nav>
     <ul>
-      <li class="tab" data-content="home"><a href="/">Home</a></li>|
-      <li class="tab" data-content="about"><a href="/about"> About</a></li>
+      <li class="tab"><a href="/">Home</a></li>|
+      <li class="tab"><a href="/about"> About</a></li>
     </ul>
   </header>
   <main>
@@ -39,7 +39,7 @@
       </select>
     </section>
     <section class="about">
-     <article class="aboutMe" data-category="x">
+     <article class="aboutMe">
         <h1>About me</h1>
       <!-- <img src="http://placehold.it/10x10/#000000"> -->
         <p>My name is ... You know my name already so not to tell
@@ -58,18 +58,28 @@ But what to say...</p>
 implement this concept in our ongoing project.</p>
        </article>
        <ul class="ulTab">
-          <li class="myTab" data-content="x">Projects</li>|
-          <li class="myTab" data-content="y">contact</li>
+          <li class="myTab"><a href="/about/project">Projects</a></li>|
+          <li class="myTab"><a href="/about/contact">Contact</a></li>
        </ul>
+       <section class="projects">
+             <div class="projectContainer">
+               <p>"This is a sample of the projects that I've worked on in the last years.Most of these sites were developed using an open source content management system called "<a href="http://www.drupal.org">Drupal</a>,and experience a large amount of traffic on a daily basis."</p>
+               <p>I enjoy working on feature-driven projects, and specialise in developing sites in the functionality sectors.</p>
+             </div>
+             <ul class="extra">
+                 <li class="project-snipshot1"><a href="file:///C:/Users/bhavy_000/201/vote/index.html"><img src="img/vote.PNG"></a></li>
+                 <li class="project-snipshot2"><a href="file:///C:/Users/bhavy_000/201/MasterBlaster/index.html"><img src="img/pflogo.png"></a></li>
+                 <li class="project-snipshot3"></li>
+             </ul>
+       </section>
+       <section id="contact">
+         <ul>
+           <a href="https://github.com/bhavyaab"><li class="icon-github"></li></a>
+           <a href="https://www.linkedin.com/in/bhavyabharti"><li class="icon-linkedin"></li></a>
+         </ul>
+       </section>
       </section>
-      <section class=""></section>
     </main>
-    <footer>
-      <ul>
-       <li class="icon-github"></li>
-       <li class="icon-linkedin"></li>
-      </ul>
-    </footer>
   </body>
   <!-- <script src="server.js"></script> -->
   <script src="vendor/page.js"></script>

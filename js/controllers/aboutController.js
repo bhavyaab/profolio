@@ -1,6 +1,13 @@
 var aboutClick = function(){
   $('.home').hide();
   $('.about').fadeIn();
+  projectClick();
+};
+var projectClick = function(){
+  $('#contact').hide();
   $('.projects').fadeIn();
-  console.log('about clicked');
+};
+var contactClick = function(){
+  $('.projects').hide();
+  $('#contact').fadeIn();
 };

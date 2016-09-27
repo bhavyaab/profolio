@@ -1,6 +1,6 @@
 
 //home page click
-page('/home', homeClick);
+page('/', homeClick);
 
 page();
 //about click

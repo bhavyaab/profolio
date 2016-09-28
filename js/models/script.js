@@ -21,3 +21,10 @@ var home = function(){
   option = $.unique(option);
   option.forEach(function(item){$('#category-filter').append(item);});
 };
+var git = function(){
+  var source = $('#project-template').html();
+  var template = Handlebars.compile(source);
+  project.forEach(function(item){
+    $('.extra').append(template(item));
+  });
+};

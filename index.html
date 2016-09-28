@@ -20,6 +20,9 @@
   <script id="category-option-template" type="text">
     <option value="{{category}}">{{category}}</option>
   </script>
+  <script id="project-template" type="text">
+    <div><a href="https://bhavyaab.github.io/{{name}}/">{{name}}</div>
+  </script>
  </head>
 <body>
   <header>
@@ -66,11 +69,7 @@ implement this concept in our ongoing project.</p>
                <p>"This is a sample of the projects that I've worked on in the last years.Most of these sites were developed using an open source content management system called "<a href="http://www.drupal.org">Drupal</a>,and experience a large amount of traffic on a daily basis."</p>
                <p>I enjoy working on feature-driven projects, and specialise in developing sites in the functionality sectors.</p>
              </div>
-             <ul class="extra">
-                 <li class="project-snipshot1"><a href="file:///C:/Users/bhavy_000/201/vote/index.html"><img src="img/vote.PNG"></a></li>
-                 <li class="project-snipshot2"><a href="file:///C:/Users/bhavy_000/201/MasterBlaster/index.html"><img src="img/pflogo.png"></a></li>
-                 <li class="project-snipshot3"></li>
-             </ul>
+             <div class="extra"></div>
        </section>
        <section id="contact">
          <ul>
@@ -91,4 +90,6 @@ implement this concept in our ongoing project.</p>
   <script src="js/controllers/homeController.js"></script>
   <script src="js/controllers/aboutController.js"></script>
   <script src="js/controllers/routes.js"></script>
+  <script src="gitToken.js"></script>
+  <script src="js/controllers/gitProject.js"></script>
 </html>

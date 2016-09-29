@@ -63,4 +63,4 @@ Session.vim
 
 # auto-generated tag files
 tags
-gitToken.js;
+env.sh

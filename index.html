@@ -20,6 +20,10 @@
   <script id="category-option-template" type="text">
     <option value="{{category}}">{{category}}</option>
   </script>
+  <script id="project-template" type="text">
+    <div><a href="{{html_url}}/">{{name}}</div>
+
+  </script>
  </head>
 <body>
   <header>
@@ -28,8 +32,8 @@
       <div class="icon-menu"></div>
     </nav>
     <ul>
-      <li class="tab" data-content="home">Home</li>|
-      <li class="tab" data-content="about">About</li>
+      <li class="tab"><a href="/">Home</a></li>
+      <li class="tab"><a href="/about"> About</a></li>
     </ul>
   </header>
   <main>
@@ -58,32 +62,35 @@ But what to say...</p>
 implement this concept in our ongoing project.</p>
        </article>
        <ul class="ulTab">
-          <li class="myTab" data-content="projects">Projects</li>
-          <li class="myTab" data-content="contact">contact</li>
+          <li class="myTab"><a href="/about/project">Projects</a></li>
+          <li class="myTab"><a href="/about/contact">Contact</a></li>
        </ul>
        <section class="projects">
              <div class="projectContainer">
                <p>"This is a sample of the projects that I've worked on in the last years.Most of these sites were developed using an open source content management system called "<a href="http://www.drupal.org">Drupal</a>,and experience a large amount of traffic on a daily basis."</p>
                <p>I enjoy working on feature-driven projects, and specialise in developing sites in the functionality sectors.</p>
              </div>
-             <ul class="extra">
-                 <li class="project-snipshot1"><a href="file:///C:/Users/bhavy_000/201/vote/index.html"><img src="img/vote.PNG"></a></li>
-                 <li class="project-snipshot2"><a href="file:///C:/Users/bhavy_000/201/MasterBlaster/index.html"><img src="img/pflogo.png"></a></li>
-                 <li class="project-snipshot3"></li>
-             </ul>
+             <div class="extra"></div>
        </section>
-       <section class="contact">
+       <section id="contact">
          <ul>
            <a href="https://github.com/bhavyaab"><li class="icon-github"></li></a>
            <a href="https://www.linkedin.com/in/bhavyabharti"><li class="icon-linkedin"></li></a>
          </ul>
        </section>
       </section>
-  </main>
+    </main>
   </body>
+  <!-- <script src="server.js"></script> -->
+  <script src="vendor/page.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
   <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
   <script src="js/data.json"></script>
-  <script src="js/viewPage.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/views/viewPage.js"></script>
+  <script src="js/models/script.js"></script>
+  <script src="js/controllers/homeController.js"></script>
+  <script src="js/controllers/aboutController.js"></script>
+  <script src="js/controllers/routes.js"></script>
+  <script src="gitToken.js"></script>
+  <script src="js/controllers/gitProject.js"></script>
 </html>

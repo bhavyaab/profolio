@@ -1,3 +1,4 @@
+/*======================== Header ============================*/
 header{
 height:150px;
 background: #333;
@@ -17,6 +18,7 @@ header ul{
   color: #888;
   background-color: #333;
 }
+/*================ Body ==============*/
 h1{
   font-size: 3em;
   font-weight: bold;
@@ -28,7 +30,7 @@ select{
 main p{
   font-size: 1em;
 }
-
+/*============================= Sub-section Contact =================*/
 .contact ul{
      text-align: center;
      font-size: 5em;
@@ -40,17 +42,20 @@ main p{
 h1{
   text-align: center;
 }
+/*============================= Section Home=================*/
 .article img{
  width: 40%;
  position: relative;
  height: 100px;
 }
+/*============================= Section About =================*/
 .aboutMe img{
 width: 40%;
 height: 100px;
 margin-left: calc(30%);
 }
 @media only screen and (min-width: 640px) {
+ /*======================== Header ============================*/
 header ul {
     display: block;
   }
@@ -67,6 +72,7 @@ header ul {
 
 }
 @media only screen and (min-width: 740px) {
+ /*======================== Header ============================*/
   header{
        height: 150px;
  }

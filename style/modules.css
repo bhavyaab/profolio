@@ -2,7 +2,7 @@
   width: device-width;
   zoom: 1;
 }
-
+/* +++ Header ++++*/
 .template{
      display: none;
 }
@@ -14,6 +14,7 @@
      font-family: 'Kumar One Outline', cursive;
      color: #b5132e;
 }
+/*====== Nav ====*/
 .main-nav{
      display: inline;
      position: absolute;
@@ -39,6 +40,7 @@
      text-align: center;
      margin: 2em;
     }
+/*======== section projects =======*/
 .projects img{
      height: 5em;
      width: 8em;
@@ -49,6 +51,7 @@
     text-align: center;
 }
 @media only screen and (min-width: 640px) {
+ /* ================== section home =====================*/
   .home img{
     height: 300px;
     width: 30%;
@@ -67,6 +70,7 @@
  .article{
  margin-bottom: 30px;
 }
+/*====== Nav ====*/
   .main-nav {
     width: 100%;
   }
@@ -83,6 +87,7 @@
  }
 }
 @media only screen and (min-width: 940px) {
+ /*====== Nav ====*/
   .logo{
      text-align: center;
      display: block;
@@ -91,6 +96,7 @@
  .main-nav {
    width: 100%;
  }
+ /**========== Header ==============**/
  header ul{
       margin-top:75px;
 }

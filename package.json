@@ -1,7 +1,7 @@
 {
-  "name": "blog-app",
+  "name": "profolio",
   "version": "1.0.0",
-  "description": "mvc for the win!",
+  "description": "This is introduction of Bhavya Bharti to the world!!",
   "main": "server.js",
   "dependencies": {
     "express": "^4.14.0",
@@ -12,6 +12,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "rick@codefellows.com",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavyaab/profolio.git"
+  },
+  "author": "Bhhavya Bharti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhavyaab/profolio/issues"
+  },
+  "homepage": "https://github.com/bhavyaab/profolio#readme"
 }

@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+<!-- Vnedor files -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="vendor/normalize.css">
     <link rel="stylesheet" href="vendor/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline" rel="stylesheet">
+<!-- style sheet -->
     <link rel="stylesheet" href="style/base.css">
     <link rel="stylesheet" href="style/layout.css">
     <link rel="stylesheet" href="style/modules.css">
-    <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline" rel="stylesheet">
     <title>Profolio</title>
+<!-- Handelbar Template -->
     <script id="home-template" type="text">
       <article class="article" data-category="{{category}}">
         <h1>{{heading}}</h1>
@@ -17,13 +20,8 @@
         <address>By <a href="{{address}}">{{author}}</a></address>
       </article>
    </script>
-  <script id="category-option-template" type="text">
-    <option value="{{category}}">{{category}}</option>
-  </script>
-  <script id="project-template" type="text">
-    <div><a href="{{html_url}}/">{{name}}</div>
-
-  </script>
+  <script id="category-option-template" type="text"><option value="{{category}}">{{category}}</option></script>
+  <script id="project-template" type="text"><div><a href="{{html_url}}/">{{name}}</div></script>
  </head>
 <body>
   <header>
@@ -81,13 +79,17 @@ implement this concept in our ongoing project.</p>
       </section>
     </main>
   </body>
-  <!-- <script src="server.js"></script> -->
+  <!-- vendor files -->
+  <script src="server.js"></script>
   <script src="vendor/page.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
   <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
   <script src="js/data.json"></script>
+  <!-- views -->
   <script src="js/views/viewPage.js"></script>
+  <!-- Model -->
   <script src="js/models/script.js"></script>
+  <!-- controllers -->
   <script src="js/controllers/homeController.js"></script>
   <script src="js/controllers/aboutController.js"></script>
   <script src="js/controllers/routes.js"></script>

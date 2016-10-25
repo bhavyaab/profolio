@@ -1,8 +1,13 @@
+/*================================ body =============================================*/
 body {
   line-height: 1.5;
   font-size: 100%;
   color: #313131;
   }
+main{
+ width: 80%;
+ margin-left: 10%;
+}
 
 img {
   max-width: 100%;
@@ -31,11 +36,4 @@ a:hover, a:focus {
 
 a:visited {
   color: #AAA;
-}
-/*body
-================================================
-*/
-main{
-  width: 80%;
-  margin-left: 10%;
 }
